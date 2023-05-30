@@ -1,0 +1,180 @@
+#App header
+import lion from "./lion.png";
+<Image width={90} src={lion}></Image>
+      <Typography.Title>Khans Dashboard</Typography.Title>
+
+      #Appfooter
+      href="tel:+918884990141">+918884990141
+
+
+
+      #Customers
+       {
+            title: "Image",
+            dataIndex: "image",
+            render: (link) => {
+              return <Avatar size={70} src={link} />;
+            },
+          },
+          {
+            title: "FirstName",
+            dataIndex: "firstName",
+          },
+          {
+            title: "LastName",
+            dataIndex: "lastName",
+        
+          },
+          {
+            title: "Age",
+            dataIndex: "age",
+           
+          },
+          {
+            title: "Gender",
+            dataIndex: "gender",
+          },
+          {
+            title: "Email",
+            dataIndex: "email",
+          },
+
+          {
+            title: "Phone",
+            dataIndex: "phone",
+          },
+          {
+            title: "Address",
+            dataIndex: "address",
+            render:(address)=>{
+              return <span>{address.address},  {address.city}</span>
+            }
+            
+          },
+          {
+            title: "Username",
+            dataIndex: "username",
+       
+            
+          },
+          {
+            title: "Password",
+            dataIndex: "password",
+            
+          },
+          {
+            title: "BirthDate",
+            dataIndex: "birthDate",
+            
+          },
+          {
+            title: "BloodGroup",
+            dataIndex: "bloodGroup",
+            
+          },
+          {
+            title: "Height",
+            dataIndex: "height",
+            
+          },
+          {
+            title: "Weight",
+            dataIndex: "weight",
+            
+          },
+          {
+            title: "EyeColor",
+            dataIndex: "eyeColor",
+            
+          },
+
+            #ORDERS
+            {
+            title: "Title",
+            dataIndex: "title",
+          },
+          {
+            title: "Price",
+            dataIndex: "price",
+            render: (value) => <span>$ {value}</span>,
+          },
+
+          {
+            title: "  Quantity",
+            dataIndex: "quantity",
+            //render: (value) => <span> {value}  pc</span>,
+          },
+
+          {
+            title: "DiscountPercentage",
+            dataIndex: "discountPercentage",
+            render: (value) => <span> {value} %</span>,
+          },
+          {
+            title: "DiscountedPrice",
+            dataIndex: "discountedPrice",
+            render: (value) => <span>$ {value} </span>,
+          },
+          {
+            title: "Total",
+            dataIndex: "total",
+            render: (value) => <span>$ {value} </span>,
+          },
+
+      #Inventory
+           {
+             title: "Thumbnail",
+            dataIndex: "thumbnail",
+            render: (link) => {
+              return <Avatar size={70} src={link} />;
+            },
+          },
+          {
+            title: "Title",
+            dataIndex: "title",
+          },
+          {
+            title: "Price",
+            dataIndex: "price",
+            render: (value) => <span>$ {value}</span>,
+          },
+          {
+            title: "Rating",
+            dataIndex: "rating",
+            render: (rating) => {
+              return <Rate value={rating} allowHalf />;
+            },
+          },
+          {
+            title: "Stock",
+            dataIndex: "stock",
+          },
+          {
+            title: "Brand",
+            dataIndex: "brand",
+          },
+
+          {
+            title: "Category",
+            dataIndex: "category",
+          },
+          {
+            title: "DiscountPercentage",
+            dataIndex: "discountPercentage",
+            render: (value) => <span> {value} %</span>,
+          },
+
+
+                  #DASHBOARD
+           render: (value) => <span>$ {value}</span>,
+
+
+
+
+             style={{
+              fontSize: "30px",
+              verticalAlign: "middle",
+              margin: "15px ",
+              paddingTop:20
+            }}
+          
